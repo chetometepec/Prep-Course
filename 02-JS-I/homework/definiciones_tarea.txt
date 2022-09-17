@@ -1,0 +1,42 @@
+variables
+En js las variables son valores que defines con la palabra reservada (var)
+ecribiendo la palabra reserva (var) antes de el nombre de la variable le decimos al codigo que la palabra seleccionada tendra un valor numerico que puede ser modificado, por ejemplo:
+var edad_alumnos (con esta variable podemos definir las edades de los almnos de un colegio)
+var costo_comida (con esta variable definiremos el costo de una comida por ejemplo en un restaurante)
+var kilometros_recorridos (con esta variable podemos definir los kilometros recorridos por un vehiculo en renta)
+
+tambien puedes definir variables para que definan nombres por ejemplo:
+var nombre_gatos (aqui puedes agregar a la variable diferentes nombres de por ejemplo la lista de gatos de un consultorio veterinario)
+
+strings
+Strings se le llama a las variable que no son numericas se les da un trato de texto y para que el codigo las interprete asi siempre tienes que encerrarlas dentro de comillas "string"
+ejemplo de string
+var nombre_ciudad = "acapulco"
+var años para jubilarse = "65" (en este caso aunque es un numero el codigo interpretara "65" como un string es decir una cadena de caracteres)
+
+funciones (argumentos, return)
+Por medio de la palabra "function" le indicas al programa que lo que sigue es una funcion.
+Una funcion la podemos definir como un conjunto de operaciones que nos arrojaran un resultado, por lo tanto podemos definir una funcion como un elemento que calculo o modifica las variables que participan dentro de la funcion
+podemos obtener el resultado de la variable por medio de la palabra "return" que nos devuelve el resultado de la operacion "function"
+por ejemplo queremos una funcion que nos calcule el tiempo en semanas a partir de los dias que le indiquemos
+
+function calcula_semana (a) {
+var semana = a/7;
+return semana;
+}
+calcula_semana (52); // 7.428
+
+Declaraciones (if)
+la declaracion de la palabra if dentro de un conjunto de instrucciones 
+indica que se decidira entre dos opciones
+tambien podemos llamarla como controlador de flujoj 
+este decalracion compara el valor de la variable de acuerdo a los oparadores 
+que pueden ser:
+True / false (falso o verdadero)
+o otilizar otros operadores como (== =< => < > )
+
+Valores booleanos
+Son las que vienen del sistema boolenao como el sistema digital que solo admite dos condiciones 0/1 (encendido o apagado)
+cierto o falso (true / false)
+ 
+
